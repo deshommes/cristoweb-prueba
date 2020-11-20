@@ -1,0 +1,479 @@
+*{
+    /* text-decoration: none; */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+
+   
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+    width: 95%;
+    /* max-width: 1200px; */
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+
+
+    .nav1 {
+        background-image: linear-gradient(to right, 
+        rgba(237, 110, 161, 0) 0%, rgba(236, 140, 105, 0) 100%);
+         border-bottom: 0px solid transparent; 
+     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2); 
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 10vw;
+        z-index: 100;
+        display: flex;
+justify-content: space-evenly;
+        height: 120px;
+        width: 100%;
+        margin-left: 300px;
+        padding-top: 50px;
+         transition: ease-in-out 0.5s;  
+     
+    }
+
+    .nav1 a{
+        text-decoration: none;
+        color: #9e2020; 
+      
+        font-family:  sans-serif ;
+        font-size: 25px;
+        margin-top: 5px;
+        
+      
+    }
+
+    .nav1 :hover{
+        background-image: linear-gradient(15deg, 
+        #0d4566 0%, #207e73 100%);
+        color: #ffffff;
+       display: flex;
+     align-items: center;
+    text-align: center;
+     width: auto;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+     margin: 0px 0px;
+     padding: 0px 20px;
+     
+    }
+
+    .subtitulo1{
+        text-align: center;
+        font-weight: 300;
+        color: #511053;
+        font-family: Brush Script MT, Brush Script Std, 
+        cursive;
+        margin: 40px;
+        font-size: 70px;
+    }
+    
+    
+   .cristoweb h3{
+       width: 490px;
+       height: 60px;
+       color: #190c50;
+       border-bottom: 1px solid transparent;
+       /* background:  rgba(255, 255, 255, 0.932);
+       box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2); */
+       position: fixed;
+       justify-content: space-between;
+       font-size: 50px;
+       padding-top: 30px;
+       text-decoration: none;
+      font-family: Apple Chancery, cursive;
+       
+   }
+
+   .cristoweb h3{
+      
+       text-align: center;
+       padding-left: 50px;
+   }
+   .cristoweb img{
+        width: 90px;
+       /* height: 50px; */
+       object-fit: 0;
+       position: fixed;
+      left: 40px;
+      margin-bottom: 100px; 
+    margin-top: 25px;
+   } 
+
+
+   .cristoteama h3{
+    font-family: fantasy;
+    color: #2a8d7dc0;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+   
+   /* empieza el .fondo */
+
+   header{
+    
+    /* width: 70%;
+        height: 1000px; */
+        /* background-image: linear-gradient(to top, rgba(39, 105, 116, 0.144) 0%, 
+        rgba(151, 139, 201, 0) 100%), url(../img/foto.jpg); */
+        background-image: linear-gradient(to top, rgb(14, 103, 119) 0%, 
+        rgb(11, 103, 119) 0%);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position-x:center ;
+        }
+      
+    
+
+  .contenido-slider{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+  
+}
+.contenido-slider> img{
+   width: 800px;
+   height: 700px;
+   padding-top: 60px;
+}
+.contenido-slider div{
+   width: 40%;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+}
+.contenido-slider h3{
+    font-family: fangsong;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.contenido-slider h2{
+    font-family: system-ui;
+    color: #caa500;
+    
+}
+
+.contenido-slider a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+
+/* empieza audio */
+.audio{
+    margin-left: 50px;
+}
+   /* termina aqui */
+  
+  
+
+ 
+    .spread{
+        transform: translate(0);
+    }
+  
+
+     .titulo{
+        box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+        font-size: 60px;
+        margin-bottom: 15px; 
+    }
+
+ .copy{  
+    font-weight: 300;
+    font-size: 25px;
+} 
+
+/* sobre este sitio */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+ 
+
+
+/* metodo de cristo */
+
+.contenedor-sitio1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    background-image: linear-gradient(-20deg, #9c3623 0%, #ffffff 100%);
+ 
+}
+
+.subtitulo1{
+    text-align: center;
+    font-weight: 300;
+    color: #8B0000;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin: 40px;
+    font-size: 70px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #00394d;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin: 40px;
+    font-size: 70px;
+}
+
+
+.contenedor-servicio1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* llamando la clase del para poner uno al lado de otro 
+foto y texto uno al lado de otro  */
+
+
+.contenedor-servicio1 img{
+    width: 40%;
+}
+.checklist-servicio1{
+    width: 45%;
+   
+    }
+
+
+ .service1{
+    margin-bottom: 20px;
+    
+}
+ .n-service1{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+.service1 p{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:"Comic Sans MS", cursive, sans-serif ;
+}
+.number1{
+    display: inline-block;
+    background-image: linear-gradient(to top, #3d1818 0%, #ffffff 100%);
+    width: 30px;
+    height: 30px;
+    color: rgb(114, 15, 15);
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+/* cierra metodo de cristo */
+
+
+
+
+
+/* empieza la parte de mapa historica */
+
+.subtitulo3{
+    text-align: center;
+    font-weight: 300;
+    color: #800606;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin: 40px;
+    font-size: 70px;
+}
+
+
+.contenedor-pdf{
+    width: 100%;
+    overflow: hidden;
+    border-top:solid 15px   #ffffff;
+    border-bottom: solid 10px #ffffff ;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.contenedor-pdf{
+
+
+    background-image: linear-gradient(-20deg, #533029 0%, #ffffff 100%);
+    
+}
+.experts{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   /* padding-right: 600px; */
+
+}
+.cont-expert{
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.cont-expert iframe{
+    width: 500px;
+    height: 375px;
+    border-radius: 10px;
+  
+}
+.n-expert{
+    color: rgb(133, 17, 8);
+    
+    display: inline-block;
+    font-size: 35px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+.n-expert1{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+
+}
+/* termina aqui mapa historica */
+
+
+
+
+@media screen and (max-width:800px){
+.menu-navegacion{
+    width: 50vw;
+}
+.cristoweb img
+{
+    width: 20%;
+    margin-bottom: 10px;
+}
+.titulo{
+    font-size: 40px;
+}
+.contenedor-servicio img{
+    width: 80%;
+    margin-bottom: 40px;
+}
+.checklist-servicio{
+    width: 80%;
+}
+.service{
+    margin-bottom: 30px;
+
+}
+.agregar-imagen{
+    width: 80%;
+      
+}
+.img-galeria{
+    width: 45%;
+
+}
+.cont-expert{
+    width: 80%;
+}
+.footer-content{
+    justify-content: center;
+   
+}
+.social-media{
+    width: 80%;
+    justify-content: space-evenly;
+
+}
+.social-media-icon{
+    margin-left: 0;
+}
+.social-media i{
+    margin-left: 0;
+}
+.contact-us{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+}
+@media screen and (max-width:500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+    .cristoweb img{
+        width: 15%;
+        margin-bottom: 5px;
+    }
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .agregar-imagen{
+    width: 95%;
+}
+.img-galeria{
+    width: 95%;
+}
+.social-media{
+    width: 100%;
+
+}
+.contact-us{
+    width: 90%;
+}
+}
+
